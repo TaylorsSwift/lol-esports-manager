@@ -1,0 +1,644 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F5B4CBB2DF098ACF35AD4BA /* libPods-LolesportsManagerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB0A9F64DEFE5FBC8CBC85CA /* libPods-LolesportsManagerTests.a */; };
+		3B7867271B447A570023E495 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7867261B447A570023E495 /* AppDelegate.swift */; };
+		3B78672E1B447A570023E495 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B78672C1B447A570023E495 /* Main.storyboard */; };
+		3B7867301B447A570023E495 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B78672F1B447A570023E495 /* Images.xcassets */; };
+		3B7867331B447A570023E495 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B7867311B447A570023E495 /* LaunchScreen.xib */; };
+		3B78673F1B447A570023E495 /* LolesportsManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B78673E1B447A570023E495 /* LolesportsManagerTests.swift */; };
+		3B7867501B447B360023E495 /* LolEsportsClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B78674F1B447B360023E495 /* LolEsportsClient.swift */; };
+		3B7867521B448B960023E495 /* LolEsportsConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7867511B448B960023E495 /* LolEsportsConstants.swift */; };
+		3B7867541B44FBED0023E495 /* LolEsportsConvenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7867531B44FBED0023E495 /* LolEsportsConvenience.swift */; };
+		3B78675A1B4603B00023E495 /* League.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7867591B4603B00023E495 /* League.swift */; };
+		3B78675C1B4641E90023E495 /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B78675B1B4641E90023E495 /* Match.swift */; };
+		3B78675E1B4736340023E495 /* LeagueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B78675D1B4736340023E495 /* LeagueViewController.swift */; };
+		3B7867601B4736C00023E495 /* TeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B78675F1B4736C00023E495 /* TeamViewController.swift */; };
+		3B7867661B47A7CB0023E495 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B7867651B47A7CB0023E495 /* ImageIO.framework */; };
+		3B78676E1B47BFF90023E495 /* libPods-LolesportsManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B78676D1B47BFF90023E495 /* libPods-LolesportsManager.a */; };
+		3B7867701B47C00B0023E495 /* libPods-LolesportsManager-SDWebImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B78676F1B47C00B0023E495 /* libPods-LolesportsManager-SDWebImage.a */; };
+		3B7867721B4878310023E495 /* MatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7867711B4878310023E495 /* MatchViewController.swift */; };
+		3B7867741B49C1F70023E495 /* MatchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7867731B49C1F70023E495 /* MatchCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B7867391B447A570023E495 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B7867191B447A570023E495 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B7867201B447A570023E495;
+			remoteInfo = LolesportsManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B7867211B447A570023E495 /* LolesportsManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LolesportsManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B7867251B447A570023E495 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B7867261B447A570023E495 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3B78672D1B447A570023E495 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B78672F1B447A570023E495 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3B7867321B447A570023E495 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3B7867381B447A570023E495 /* LolesportsManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LolesportsManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B78673D1B447A570023E495 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B78673E1B447A570023E495 /* LolesportsManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LolesportsManagerTests.swift; sourceTree = "<group>"; };
+		3B78674F1B447B360023E495 /* LolEsportsClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LolEsportsClient.swift; sourceTree = "<group>"; };
+		3B7867511B448B960023E495 /* LolEsportsConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LolEsportsConstants.swift; sourceTree = "<group>"; };
+		3B7867531B44FBED0023E495 /* LolEsportsConvenience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LolEsportsConvenience.swift; sourceTree = "<group>"; };
+		3B7867591B4603B00023E495 /* League.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = League.swift; sourceTree = "<group>"; };
+		3B78675B1B4641E90023E495 /* Match.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Match.swift; sourceTree = "<group>"; };
+		3B78675D1B4736340023E495 /* LeagueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeagueViewController.swift; sourceTree = "<group>"; };
+		3B78675F1B4736C00023E495 /* TeamViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamViewController.swift; sourceTree = "<group>"; };
+		3B7867651B47A7CB0023E495 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		3B7867681B47B9790023E495 /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+		3B7867691B47BBE70023E495 /* libPods-LolesportsManager-SDWebImage.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-LolesportsManager-SDWebImage.a"; path = "Pods/../build/Debug-iphoneos/libPods-LolesportsManager-SDWebImage.a"; sourceTree = "<group>"; };
+		3B78676D1B47BFF90023E495 /* libPods-LolesportsManager.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-LolesportsManager.a"; path = "Pods/../build/Debug-iphoneos/libPods-LolesportsManager.a"; sourceTree = "<group>"; };
+		3B78676F1B47C00B0023E495 /* libPods-LolesportsManager-SDWebImage.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-LolesportsManager-SDWebImage.a"; path = "Pods/../build/Debug-iphoneos/libPods-LolesportsManager-SDWebImage.a"; sourceTree = "<group>"; };
+		3B7867711B4878310023E495 /* MatchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchViewController.swift; sourceTree = "<group>"; };
+		3B7867731B49C1F70023E495 /* MatchCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchCell.swift; sourceTree = "<group>"; };
+		47492F286C3B1EA0E1AF04CE /* Pods-LolesportsManagerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LolesportsManagerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LolesportsManagerTests/Pods-LolesportsManagerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		647B7946D2DB1263E5388A50 /* Pods-LolesportsManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LolesportsManager.release.xcconfig"; path = "Pods/Target Support Files/Pods-LolesportsManager/Pods-LolesportsManager.release.xcconfig"; sourceTree = "<group>"; };
+		75061719B28AE1806C680ED6 /* libPods-LolesportsManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LolesportsManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D906A74A409D854E3B2A466 /* Pods-LolesportsManagerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LolesportsManagerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LolesportsManagerTests/Pods-LolesportsManagerTests.release.xcconfig"; sourceTree = "<group>"; };
+		CB0A9F64DEFE5FBC8CBC85CA /* libPods-LolesportsManagerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LolesportsManagerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE6267DD985785958A2705BE /* Pods-LolesportsManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LolesportsManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LolesportsManager/Pods-LolesportsManager.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B78671E1B447A570023E495 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B7867701B47C00B0023E495 /* libPods-LolesportsManager-SDWebImage.a in Frameworks */,
+				3B78676E1B47BFF90023E495 /* libPods-LolesportsManager.a in Frameworks */,
+				3B7867661B47A7CB0023E495 /* ImageIO.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B7867351B447A570023E495 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F5B4CBB2DF098ACF35AD4BA /* libPods-LolesportsManagerTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B7867181B447A570023E495 = {
+			isa = PBXGroup;
+			children = (
+				3B7867651B47A7CB0023E495 /* ImageIO.framework */,
+				3B7867231B447A570023E495 /* LolesportsManager */,
+				3B78673B1B447A570023E495 /* LolesportsManagerTests */,
+				3B7867221B447A570023E495 /* Products */,
+				C9315985BADA99CFD3C9A62C /* Pods */,
+				47EDD882729E55BAA8254D64 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3B7867221B447A570023E495 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B7867211B447A570023E495 /* LolesportsManager.app */,
+				3B7867381B447A570023E495 /* LolesportsManagerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B7867231B447A570023E495 /* LolesportsManager */ = {
+			isa = PBXGroup;
+			children = (
+				3B7867681B47B9790023E495 /* BridgingHeader.h */,
+				3B7867261B447A570023E495 /* AppDelegate.swift */,
+				3B7867481B447A7E0023E495 /* Model */,
+				3B7867491B447A840023E495 /* View */,
+				3B78674A1B447A870023E495 /* Controller */,
+				3B7867241B447A570023E495 /* Supporting Files */,
+			);
+			path = LolesportsManager;
+			sourceTree = "<group>";
+		};
+		3B7867241B447A570023E495 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B78672F1B447A570023E495 /* Images.xcassets */,
+				3B78674B1B447AA30023E495 /* Storyboards */,
+				3B7867251B447A570023E495 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3B78673B1B447A570023E495 /* LolesportsManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				3B78673E1B447A570023E495 /* LolesportsManagerTests.swift */,
+				3B78673C1B447A570023E495 /* Supporting Files */,
+			);
+			path = LolesportsManagerTests;
+			sourceTree = "<group>";
+		};
+		3B78673C1B447A570023E495 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B78673D1B447A570023E495 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3B7867481B447A7E0023E495 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3B78674D1B447AF90023E495 /* Clients */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		3B7867491B447A840023E495 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		3B78674A1B447A870023E495 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3B78675D1B4736340023E495 /* LeagueViewController.swift */,
+				3B78675F1B4736C00023E495 /* TeamViewController.swift */,
+				3B7867711B4878310023E495 /* MatchViewController.swift */,
+				3B7867731B49C1F70023E495 /* MatchCell.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		3B78674B1B447AA30023E495 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				3B78672C1B447A570023E495 /* Main.storyboard */,
+				3B7867311B447A570023E495 /* LaunchScreen.xib */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		3B78674D1B447AF90023E495 /* Clients */ = {
+			isa = PBXGroup;
+			children = (
+				3B78674E1B447AFE0023E495 /* Lolesports */,
+			);
+			name = Clients;
+			sourceTree = "<group>";
+		};
+		3B78674E1B447AFE0023E495 /* Lolesports */ = {
+			isa = PBXGroup;
+			children = (
+				3B7867581B46039E0023E495 /* Data */,
+				3B78674F1B447B360023E495 /* LolEsportsClient.swift */,
+				3B7867511B448B960023E495 /* LolEsportsConstants.swift */,
+				3B7867531B44FBED0023E495 /* LolEsportsConvenience.swift */,
+			);
+			name = Lolesports;
+			sourceTree = "<group>";
+		};
+		3B7867581B46039E0023E495 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				3B7867591B4603B00023E495 /* League.swift */,
+				3B78675B1B4641E90023E495 /* Match.swift */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		47EDD882729E55BAA8254D64 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B78676F1B47C00B0023E495 /* libPods-LolesportsManager-SDWebImage.a */,
+				3B78676D1B47BFF90023E495 /* libPods-LolesportsManager.a */,
+				3B7867691B47BBE70023E495 /* libPods-LolesportsManager-SDWebImage.a */,
+				75061719B28AE1806C680ED6 /* libPods-LolesportsManager.a */,
+				CB0A9F64DEFE5FBC8CBC85CA /* libPods-LolesportsManagerTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9315985BADA99CFD3C9A62C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE6267DD985785958A2705BE /* Pods-LolesportsManager.debug.xcconfig */,
+				647B7946D2DB1263E5388A50 /* Pods-LolesportsManager.release.xcconfig */,
+				47492F286C3B1EA0E1AF04CE /* Pods-LolesportsManagerTests.debug.xcconfig */,
+				7D906A74A409D854E3B2A466 /* Pods-LolesportsManagerTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B7867201B447A570023E495 /* LolesportsManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B7867421B447A570023E495 /* Build configuration list for PBXNativeTarget "LolesportsManager" */;
+			buildPhases = (
+				CC7880EE654C7A8999C2F3C5 /* Check Pods Manifest.lock */,
+				3B78671D1B447A570023E495 /* Sources */,
+				3B78671E1B447A570023E495 /* Frameworks */,
+				3B78671F1B447A570023E495 /* Resources */,
+				EFEA82DC8C304454424C93D8 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LolesportsManager;
+			productName = LolesportsManager;
+			productReference = 3B7867211B447A570023E495 /* LolesportsManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B7867371B447A570023E495 /* LolesportsManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B7867451B447A570023E495 /* Build configuration list for PBXNativeTarget "LolesportsManagerTests" */;
+			buildPhases = (
+				DDFBEBB71A38ADD67CDFD393 /* Check Pods Manifest.lock */,
+				3B7867341B447A570023E495 /* Sources */,
+				3B7867351B447A570023E495 /* Frameworks */,
+				3B7867361B447A570023E495 /* Resources */,
+				4B75A6817583160EC0C4549A /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B78673A1B447A570023E495 /* PBXTargetDependency */,
+			);
+			name = LolesportsManagerTests;
+			productName = LolesportsManagerTests;
+			productReference = 3B7867381B447A570023E495 /* LolesportsManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B7867191B447A570023E495 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Rithms;
+				TargetAttributes = {
+					3B7867201B447A570023E495 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					3B7867371B447A570023E495 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 3B7867201B447A570023E495;
+					};
+				};
+			};
+			buildConfigurationList = 3B78671C1B447A570023E495 /* Build configuration list for PBXProject "LolesportsManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B7867181B447A570023E495;
+			productRefGroup = 3B7867221B447A570023E495 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B7867201B447A570023E495 /* LolesportsManager */,
+				3B7867371B447A570023E495 /* LolesportsManagerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B78671F1B447A570023E495 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B78672E1B447A570023E495 /* Main.storyboard in Resources */,
+				3B7867331B447A570023E495 /* LaunchScreen.xib in Resources */,
+				3B7867301B447A570023E495 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B7867361B447A570023E495 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4B75A6817583160EC0C4549A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LolesportsManagerTests/Pods-LolesportsManagerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC7880EE654C7A8999C2F3C5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DDFBEBB71A38ADD67CDFD393 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EFEA82DC8C304454424C93D8 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LolesportsManager/Pods-LolesportsManager-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B78671D1B447A570023E495 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B78675A1B4603B00023E495 /* League.swift in Sources */,
+				3B7867601B4736C00023E495 /* TeamViewController.swift in Sources */,
+				3B7867521B448B960023E495 /* LolEsportsConstants.swift in Sources */,
+				3B78675C1B4641E90023E495 /* Match.swift in Sources */,
+				3B78675E1B4736340023E495 /* LeagueViewController.swift in Sources */,
+				3B7867741B49C1F70023E495 /* MatchCell.swift in Sources */,
+				3B7867271B447A570023E495 /* AppDelegate.swift in Sources */,
+				3B7867721B4878310023E495 /* MatchViewController.swift in Sources */,
+				3B7867541B44FBED0023E495 /* LolEsportsConvenience.swift in Sources */,
+				3B7867501B447B360023E495 /* LolEsportsClient.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B7867341B447A570023E495 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B78673F1B447A570023E495 /* LolesportsManagerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B78673A1B447A570023E495 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B7867201B447A570023E495 /* LolesportsManager */;
+			targetProxy = 3B7867391B447A570023E495 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3B78672C1B447A570023E495 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B78672D1B447A570023E495 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3B7867311B447A570023E495 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B7867321B447A570023E495 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B7867401B447A570023E495 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3B7867411B447A570023E495 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B7867431B447A570023E495 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE6267DD985785958A2705BE /* Pods-LolesportsManager.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = LolesportsManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = ./LolesportsManager/BridgingHeader.h;
+			};
+			name = Debug;
+		};
+		3B7867441B447A570023E495 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 647B7946D2DB1263E5388A50 /* Pods-LolesportsManager.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = LolesportsManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LIBTOOLFLAGS = "";
+				"OTHER_LIBTOOLFLAGS[arch=*]" = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = ./LolesportsManager/BridgingHeader.h;
+			};
+			name = Release;
+		};
+		3B7867461B447A570023E495 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47492F286C3B1EA0E1AF04CE /* Pods-LolesportsManagerTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LolesportsManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LolesportsManager.app/LolesportsManager";
+			};
+			name = Debug;
+		};
+		3B7867471B447A570023E495 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D906A74A409D854E3B2A466 /* Pods-LolesportsManagerTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LolesportsManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LolesportsManager.app/LolesportsManager";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B78671C1B447A570023E495 /* Build configuration list for PBXProject "LolesportsManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B7867401B447A570023E495 /* Debug */,
+				3B7867411B447A570023E495 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B7867421B447A570023E495 /* Build configuration list for PBXNativeTarget "LolesportsManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B7867431B447A570023E495 /* Debug */,
+				3B7867441B447A570023E495 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B7867451B447A570023E495 /* Build configuration list for PBXNativeTarget "LolesportsManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B7867461B447A570023E495 /* Debug */,
+				3B7867471B447A570023E495 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B7867191B447A570023E495 /* Project object */;
+}
