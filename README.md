@@ -1,6 +1,4 @@
-# League of Legends eSports Manager 
-## (Demo Build)
-================================================
+# League of Legends eSports Manager (Demo)
 
 ### About
 A simple iOS app that notifies you when your favorite League of Legends eSports teams are playing.
