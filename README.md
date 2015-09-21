@@ -1,6 +1,9 @@
-# lol-esports-manager
+# League of Legends eSports Manager 
+## (Demo Build)
+================================================
 
-Simple iOS app that notifies you when your favorite League of Legends eSports teams are playing.
+### About
+A simple iOS app that notifies you when your favorite League of Legends eSports teams are playing.
 
 Created for the ['ChallengePost Summer Jam - Connect With Your Team - powered by Twitter'](http://sjconnect.devpost.com/?ref_feature=summerjam&ref_content=sjconnect) hackathon.
 
